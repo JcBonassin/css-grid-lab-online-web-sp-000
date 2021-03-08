@@ -17,6 +17,8 @@ body {
   border: 1px solid black;
 }
 
-grid-template: repeat(4, 1fr) / repeat(3, 1fr)
+grid-template-rows: [header-start] 1fr [header-end] 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+
 
 /* add the .bigItem class */
