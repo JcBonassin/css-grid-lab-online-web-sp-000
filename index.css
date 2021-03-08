@@ -6,7 +6,7 @@ body {
 
 .grid-container {
   display: grid
-  grid-template:  1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  grid-template:  1fr 1fr 1fr / 1fr 1fr 1fr ;
   height: 100vh;
   width: 100vw;
   /* your properties here */
@@ -16,5 +16,7 @@ body {
   background-color: grey;
   border: 1px solid black;
 }
+
+grid-template: repeat(4, 1fr) / repeat(3, 1fr)
 
 /* add the .bigItem class */
